@@ -57,7 +57,7 @@ input,input:focus,textarea{
 input,textarea {
     width: 100%;
     height: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #fe6601;
     padding: 0px 15px;
 }
 .me-padder-top{
@@ -184,6 +184,7 @@ input,textarea {
 }
 .me-login-form {
     padding: 0px 50px;
+    margin-bottom: 50px;
 }
 .me-remember input {
     opacity: 0;
@@ -253,7 +254,8 @@ input,textarea {
     line-height: 39px;
 }
 .me-login-with-social {
-    background: linear-gradient(45deg, #2c4393, #fe6601);
+    /*background: linear-gradient(45deg, #2c4393, #fe6601);*/
+    background:  #fe6601 ;
     padding: 20px;
     margin-top: 50px;
     text-align: center;
@@ -1358,7 +1360,8 @@ p#me_timer span {
 }
 .me-footer-copyright {
     padding: 15px 0px;
-    background: linear-gradient(45deg, #2c4393, #fe6601);
+    /*background: linear-gradient(45deg, #2c4393, #fe6601);*/
+    background: #fe6601;
     margin-bottom: 52px;
 }
 .me-copyright-block ul {
@@ -3089,7 +3092,8 @@ div#me-profile-modal input::-webkit-outer-spin-button{
     vertical-align: middle;
 }
 .me-transaction-box table thead {
-    background: linear-gradient(45deg, #2c4393, #fe6601);
+    /*background: linear-gradient(45deg, #2c4393, #fe6601);*/
+    background: #fe6601;
 }
 .me-transaction-box table thead th {
     color: #fff;
@@ -3186,6 +3190,7 @@ div#me-profile-modal input::-webkit-outer-spin-button{
     z-index: 1;
     transition: 0.5s;
     text-align: center;
+    margin-bottom: 10px;
 }
 .me-service-three-box:hover{
     transform: translate(0px,-10px);
@@ -3194,6 +3199,7 @@ div#me-profile-modal input::-webkit-outer-spin-button{
     font-weight: 700;
     margin-bottom: 15px;
     margin-top: 38px;
+    height: 80px;
 }
 .me-service-three-box svg {
     width: 90px;
@@ -3845,6 +3851,14 @@ div#me-profile-modal input::-webkit-outer-spin-button{
         margin: 40px auto 80px;
         width: fit-content;
     }
+
+    @-moz-document url-prefix() {
+        .me-history-point {
+            margin: 40px auto 80px;
+            width: max-content;
+        }
+    }
+
     .me-history-point-shape:after {
         left: -30px;
         top: -30px;
