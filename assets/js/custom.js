@@ -477,3 +477,8 @@ $(".submitForm").on('click', function() {
         });
     }
 });
+
+$('#me-rate').on('click', function () {
+    var url="https://vk.com/serviscentrsamara?w=wall-158399855_22%2Fall";
+    window.open(url,'_blank');
+});

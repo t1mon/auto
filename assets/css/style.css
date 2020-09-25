@@ -2752,7 +2752,7 @@ div#me-profile-modal input::-webkit-outer-spin-button{
     box-shadow: 1.5px 3.99px 27px 0px rgba( 0, 0, 0, 0.1);
 }
 .me-banner-two-text h1,.me-banner-three-text h1{
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 600;
     /*text-transform: capitalize;*/
 }
@@ -3153,7 +3153,8 @@ div#me-profile-modal input::-webkit-outer-spin-button{
 }
 .me-banner-three-text {
     margin-top: -12px;
-    padding: 70px 50px 70px 0px;
+    /*padding: 70px 50px 70px 0px;*/
+    padding: 20px 10px 20px 0px;
 }
 .me-banner-three:after {
     width: 400px;
